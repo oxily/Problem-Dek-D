@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="https://images.pexels.com/photos/1384003/pexels-photo-1384003.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="https://images.pexels.com/photos/1591374/pexels-photo-1591374.jpeg?cs=srgb&dl=pexels-asad-photo-maldives-1591374.jpg&fm=jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="https://images.pexels.com/photos/2418963/pexels-photo-2418963.jpeg?cs=srgb&dl=pexels-stein-egil-liland-2418963.jpg&fm=jpg" style="width:100%">
+        </div>
+
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <script src="scrip.js"></script>
+</body>
+
+</html>
